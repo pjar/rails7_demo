@@ -115,8 +115,6 @@ GEM
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
-    nokogiri (1.12.5-x86_64-linux)
-      racc (~> 1.4)
     pg (1.2.3)
     public_suffix (4.0.6)
     puma (5.5.2)
@@ -152,6 +150,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    redis (4.5.1)
     regexp_parser (2.2.0)
     reline (0.2.7)
       io-console (~> 0.5)
@@ -208,6 +207,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.0)
+  redis (~> 4.0)
   selenium-webdriver
   sprockets-rails
   stimulus-rails

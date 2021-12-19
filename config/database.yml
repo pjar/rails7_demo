@@ -82,8 +82,8 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  database: rails7_demo_production
-  username: rails7_demo
-  password: <%= ENV["RAILS7_DEMO_DATABASE_PASSWORD"] %>
+#production:
+#  <<: *default
+#  database: rails7_demo_production
+#  username: rails7_demo
+#  password: <%#= ENV["RAILS7_DEMO_DATABASE_PASSWORD"] %>
