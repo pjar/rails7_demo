@@ -1,3 +1,4 @@
+# Based on https://docs.docker.com/samples/rails/
 FROM ruby:3.0.3
 
 RUN apt-get update -qq && apt-get install -y libvips postgresql-client
